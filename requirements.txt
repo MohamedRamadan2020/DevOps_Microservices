@@ -1,4 +1,9 @@
+pytest
 pylint
-wikipedia
-python-json-logger
-boto3
+jupyter
+pytest-cov
+pandas
+nbval
+click
+flask
+requests
