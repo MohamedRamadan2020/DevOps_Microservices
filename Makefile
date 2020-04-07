@@ -8,6 +8,7 @@ test:
 	#PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
 
 lint:
+        hadolint Dockerfile
 	pylint --disable=R,C,W1203 example_src/*.py
 
 all: install lint test
